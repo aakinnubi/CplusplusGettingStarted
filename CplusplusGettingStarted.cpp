@@ -27,6 +27,16 @@ int main()
     distace = 1212.987;
     isAlive = true;
     cout << "The variable results : Age => " << age << " Weight is =>" << weight << "Distance => "<<distace << "and isAlive => "<<isAlive;
+
+    //Compound operator
+
+   int g=  age -= 10;
+   int g2=  age *= 10;
+   float g3 = age /= 10;
+   float g5 = age %= 10;
+   cout << "\n The variable results : Age => " << g << " Weight is => " << g2 << " Distance => " << g3 << " and isAlive => " << g5;
+
+    //End of compound operator
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
