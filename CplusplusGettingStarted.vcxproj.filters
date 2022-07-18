@@ -18,5 +18,8 @@
     <ClCompile Include="CplusplusGettingStarted.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SumAverageFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

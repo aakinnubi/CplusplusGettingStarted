@@ -10,7 +10,7 @@ int addNumber(int firstNumber, int secondNumber) {
 int getAge(int yearOfbirth, int currentYear) {
     return currentYear - yearOfbirth;
 }
-int main()
+int main2()
 {
   /*  int firstNumber = 3;*/
     int firstNumber  {4 }; 
@@ -49,7 +49,7 @@ int main()
    int ybirth = stoi(yearOfBirth);
    int cybirth = stoi(currentYear);
    cout << "The current age is : " << getAge(ybirth, cybirth);
-
+   return -1;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
