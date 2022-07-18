@@ -7,6 +7,9 @@ using namespace std;
 int addNumber(int firstNumber, int secondNumber) {
     return firstNumber + secondNumber;
 }
+int getAge(int yearOfbirth, int currentYear) {
+    return currentYear - yearOfbirth;
+}
 int main()
 {
   /*  int firstNumber = 3;*/
@@ -26,7 +29,7 @@ int main()
     weight = 13.4f;
     distace = 1212.987;
     isAlive = true;
-    cout << "The variable results : Age => " << age << " Weight is =>" << weight << "Distance => "<<distace << "and isAlive => "<<isAlive;
+    cout << "The variable results : Age => " << age << " Weight is =>" << weight << "Distance => "<<distace << "and isAlive => "<<isAlive << endl;
 
     //Compound operator
 
@@ -34,9 +37,19 @@ int main()
    int g2=  age *= 10;
    float g3 = age /= 10;
    float g5 = age %= 10;
-   cout << "\n The variable results : Age => " << g << " Weight is => " << g2 << " Distance => " << g3 << " and isAlive => " << g5;
+   cout << "The variable results : Age => " << g << " Weight is => " << g2 << " Distance => " << g3 << " and isAlive => " << g5 << endl;
 
     //End of compound operator
+   string yearOfBirth;
+   string currentYear;
+   cout << "Please enter year of birth: ";
+   cin >> yearOfBirth;
+   cout << "Please enter current: ";
+   cin >> currentYear;
+   int ybirth = stoi(yearOfBirth);
+   int cybirth = stoi(currentYear);
+   cout << "The current age is : " << getAge(ybirth, cybirth);
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
