@@ -2,6 +2,8 @@
 //
 
 #include <iostream>
+#include <string>
+using namespace std;
 int addNumber(int firstNumber, int secondNumber) {
     return firstNumber + secondNumber;
 }
@@ -10,7 +12,21 @@ int main()
   /*  int firstNumber = 3;*/
     int firstNumber  {4 }; 
     std::cout << "Hello World!\n";
-    std::cout << "New Number " <<addNumber(firstNumber,30);
+    std::cout << "New Number " <<addNumber(firstNumber,30) << "\n";
+    int age;
+    float weight;
+    double distace;
+    bool isAlive;
+    char initial;
+    string name;
+    unsigned short int betterAge;
+    long double hugeDistance;
+
+    age = 34;
+    weight = 13.4f;
+    distace = 1212.987;
+    isAlive = true;
+    cout << "The variable results : Age => " << age << " Weight is =>" << weight << "Distance => "<<distace << "and isAlive => "<<isAlive;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
